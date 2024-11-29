@@ -7,7 +7,7 @@ public class Primes {
     public static void sieveOfEratosthenes(int primeUpToNum) {
         boolean[] primes = new boolean[primeUpToNum + 1];
 
-        for (int i = 2; i < primeUpToNum; i ++) {
+        for (int i = 2; i <= primeUpToNum; i ++) {
             primes[i] = true;
         }
 
