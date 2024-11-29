@@ -36,6 +36,7 @@ public class KeywordsDetector {
 
             if (isKeyword) {
                 System.out.println(sentences[i]);
+                isKeyword  = false; 
             }
         }
 
